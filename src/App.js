@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Cake from './components/Cake';
+import DynamicCakeNumber from './components/DynamicCakeNumber';
+import IceCream from './components/IceCream';
+import TestCake from './components/TestCake';
+import TestComp from './components/TestComp';
+import TestIceCream from './components/TestIceCream';
+import UserDate from './components/UserDate';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/*  <TestComp cake/>
+      <TestComp iceCream/>
+     <Cake/>
+     <TestCake/>
+     <IceCream/>
+     <TestIceCream/>
+     <DynamicCakeNumber/> */}
+     <UserDate/>
     </div>
   );
 }
